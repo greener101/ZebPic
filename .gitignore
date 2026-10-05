@@ -1,0 +1,7 @@
+# Installers are published as release assets, not committed to the repository.
+upload/
+*.exe
+*.zip
+
+# IDE settings
+.idea/
