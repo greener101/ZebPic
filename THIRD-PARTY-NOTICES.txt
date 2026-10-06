@@ -16,6 +16,7 @@ the list.
   XmpCore                            6.1.10.1     BSD-3-Clause   Adobe; port by Drew Noakes and
                                                                  contributors
   VirtualizingWrapPanel              2.5.4        MIT            2019 S. Baeumlisberger
+  Windows SDK projections (CsWinRT)  10.0.19041   MIT            Microsoft Corporation
 
 Project pages
 
@@ -27,13 +28,19 @@ Project pages
   MetadataExtractor      https://github.com/drewnoakes/metadata-extractor-dotnet
   XmpCore                https://github.com/drewnoakes/xmp-core-dotnet
   VirtualizingWrapPanel  https://github.com/sbaeumlisberger/VirtualizingWrapPanel
+  CsWinRT                https://github.com/microsoft/CsWinRT
+
+Maps ("show on map" and the optional map in the Metadata window) are drawn
+from map tiles of openstreetmap.org, loaded when a map is shown.
+Map data: (c) OpenStreetMap contributors, available under the Open Database
+License, https://www.openstreetmap.org/copyright
 
 The .NET runtime's own license and third-party notices are installed with
 ZebPic in the "licenses" folder (dotnet-LICENSE.txt and
 dotnet-ThirdPartyNotices.txt).
 
 ==============================================================================
-.NET Runtime, Windows Desktop (WPF), Microsoft.Data.Sqlite
+.NET Runtime, Windows Desktop (WPF), Microsoft.Data.Sqlite, Windows SDK projections
 ==============================================================================
 
 The MIT License (MIT)

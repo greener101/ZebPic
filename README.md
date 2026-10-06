@@ -9,6 +9,11 @@ Photo and video viewer, organizer, sorter, duplicate finder and photo editor for
 | [ZebPic-Setup.exe](https://github.com/greener101/ZebPic/releases/latest/download/ZebPic-Setup.exe) | Installer: Start Menu entry, optional Desktop shortcut, "Open with" registration, uninstaller |
 | [ZebPic-Portable.zip](https://github.com/greener101/ZebPic/releases/latest/download/ZebPic-Portable.zip) | Portable version: unzip anywhere and run `ZebPic.exe` |
 
+### Beta versions
+
+Test versions of the next release are published as pre-releases on the [Releases page](https://github.com/greener101/ZebPic/releases).
+They are not offered as automatic updates. The links above always point to the latest stable version.
+
 ## Features
 
 **Browse**
