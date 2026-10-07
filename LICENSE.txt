@@ -10,8 +10,12 @@ you do not accept it, do not install or use the Software.
 1. License
 
    The Author grants you a free, non-exclusive, non-transferable license to
-   install and use the Software on any number of computers, for personal and
-   for commercial purposes.
+   install and use the Software on any number of computers, for your own
+   personal, non-commercial purposes only.
+
+   Use of the Software at work, in or on behalf of a company, an organization
+   or a public body, or as part of any paid service, is not covered by this
+   license and is not permitted.
 
 2. Redistribution
 
@@ -22,6 +26,8 @@ you do not accept it, do not install or use the Software.
 3. Restrictions
 
    You may not:
+   - use the Software for commercial purposes or in the course of a business,
+     profession or employment;
    - sell, rent, lease or sublicense the Software, or charge for access to it;
    - modify the Software or create derivative works based on it;
    - reverse engineer, decompile or disassemble the Software, except to the

@@ -25,10 +25,12 @@ They are not offered as automatic updates. The links above always point to the l
 **View**
 - Zoom at the cursor, pan, fit to window, 100 %, filmstrip, full screen.
 - Plays videos (MP4, MOV, AVI, WMV, MKV) with play/pause, seek and volume.
+- Shows where a photo was taken on a map, when the photo has GPS coordinates.
 
 **Organize**
 - Star ratings, color labels and tags, with keyboard shortcuts.
 - They are stored in ZebPic's own database: your files are not modified.
+- Albums: named lists of photos from any folders; the files stay where they are.
 - Rename (F2), new folder, copy, cut, paste. Deleting always goes to the Windows Recycle Bin.
 
 **Sort**
@@ -42,13 +44,14 @@ They are not offered as automatic updates. The links above always point to the l
 
 **Edit**
 - Light, color and sharpness adjustments; crop with aspect ratios; resize; rotate and flip.
-- Pencil, text captions, text or picture watermarks: move and rotate them with the mouse, set opacity, optional embossed look.
+- Pencil, text captions, text or picture watermarks: choose a font, move and rotate them with the mouse, set opacity, optional embossed or engraved look.
 - Undo and redo. The original file changes only when you choose Save; Save As creates a new file.
+- Edit History keeps the version each Save replaced, so a saved edit can be undone later.
 
 **Batch**
-- Resize or watermark many photos at once. Results go to a separate subfolder; originals are never changed.
+- Resize or watermark many photos at once. Results go to a separate subfolder; originals are changed only if you ask for it.
 
-Dark and light themes. English interface; Russian is available in the current beta.
+Dark and light themes. English and Russian interface.
 
 ## Requirements
 
@@ -69,7 +72,7 @@ are kept in `%LocalAppData%\ZebPic` and are preserved by updates and reinstalls.
 
 ## License
 
-ZebPic is free to use for personal and commercial purposes. It may not be sold or modified; see [LICENSE.txt](LICENSE.txt).
+ZebPic is free for personal, non-commercial use. It may not be used at work or in an organization, sold or modified; see [LICENSE.txt](LICENSE.txt).
 Components by other authors that are included in ZebPic are listed in [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt).
 
 ## Feedback
