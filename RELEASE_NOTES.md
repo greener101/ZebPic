@@ -1,4 +1,4 @@
-## ZebPic v1.0.1b2 (beta 2)
+## ZebPic v1.0.1b2 (beta)
 
 Second test version of the next release. It is published as a **pre-release**: earlier versions do not offer it as an
 automatic update. Install it over 1.0.0 or over beta 1 with the installer; ratings, tags, albums and settings are kept.
