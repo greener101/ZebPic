@@ -48,7 +48,7 @@ They are not offered as automatic updates. The links above always point to the l
 **Batch**
 - Resize or watermark many photos at once. Results go to a separate subfolder; originals are never changed.
 
-Dark and light themes.
+Dark and light themes. English interface; Russian is available in the current beta.
 
 ## Requirements
 

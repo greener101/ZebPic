@@ -1,3 +1,36 @@
+## ZebPic v1.0.1b2 (beta 2)
+
+Second test version of the next release. It is published as a **pre-release**: earlier versions do not offer it as an
+automatic update. Install it over 1.0.0 or over beta 1 with the installer; ratings, tags, albums and settings are kept.
+
+### Download
+
+- **ZebPic-Setup.exe** - installer (recommended).
+- **ZebPic-Portable.zip** - portable version; unzip and run `ZebPic.exe`.
+
+Windows 10 or 11, 64-bit. Nothing else needs to be installed.
+
+The installer is not digitally signed yet. If Windows SmartScreen shows a warning, choose **More info**, then **Run anyway**.
+
+### New in beta 2
+
+- **Russian interface.** The language is chosen in Settings > General (English, Russian, or the language of Windows) and
+  changes after a restart. Each language is one file in the `lang` folder, so more languages can be added without a new build.
+- **Duplicates**: double-click opens the photo in a separate window with its name, folder, size and date; Esc closes it.
+- Flip buttons in the editor are icons now.
+
+Everything else is as in beta 1.
+
+### Known limitations
+
+- HEVC (H.265) videos, such as .MOV files from recent phones and cameras, need "HEVC Video Extensions" from Microsoft Store.
+- WEBP and HEIC/HEIF photos need the Windows image extensions from Microsoft Store; they cannot be saved in those formats.
+- RAW camera formats are not supported yet.
+- Metadata field names (EXIF, IPTC, XMP) and the license texts are in English in every language.
+- This is a beta: please report problems on the Issues page.
+
+---
+
 ## ZebPic v1.0.1b (beta)
 
 Test version of the next release. It is published as a **pre-release**: version 1.0.0 does not offer it as an automatic update.
