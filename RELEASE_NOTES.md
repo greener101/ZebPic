@@ -1,3 +1,67 @@
+## ZebPic v2.0.0b1 (beta)
+
+First test version of ZebPic 2.0. It is published as a **pre-release**: version 1.1.0 does not offer it as an automatic
+update. Install it over 1.1.0 with the installer; ratings, tags, albums and settings are kept.
+
+### Download
+
+- **ZebPic-Setup.exe** - installer (recommended).
+- **ZebPic-Portable.zip** - portable version; unzip and run `ZebPic.exe`.
+
+Windows 10 or 11, 64-bit. Nothing else needs to be installed.
+
+The installer is not digitally signed yet. If Windows SmartScreen shows a warning, choose **More info**, then **Run anyway**.
+
+### New: Smart Search
+
+Optional, off until you turn it on in Settings > Smart Search (or with the sparkles button next to the search box).
+Turning it on downloads its components once, about 254 MB. All analysis runs on your computer; photos are not sent anywhere.
+
+- **Search by what is on the photo.** Type a description in English or Russian - "sunset over the sea", "dog on a sofa",
+  "people on stage" - and the closest photos come first. It can be combined with `tag:`, `rating:` and `label:`.
+- **Library.** Smart search covers the folders you put into the Library: in Settings, or by right-clicking a folder and
+  choosing Add to Library. System and program folders are skipped, so a whole drive can be added. Photos smaller than a
+  chosen size (100 KB by default) are left out.
+- **Indexing** starts with the Start Indexing button and can be paused. The time left is shown in Settings and next to the
+  search box. New photos in the Library folders are picked up by themselves; indexing can be limited to the time the
+  computer is not in use.
+- **People.** Faces found in the Library are grouped into persons, listed in the left panel as a list or as round
+  portraits. Give a person a name and type it into the search box, alone, with other names or with a description
+  ("Anna on the beach"). Corrections: Merge Into, Move to Person, Not This Person, Not a Person, Ignore (can be undone).
+- **External disks.** A Library folder on a disk that is disconnected keeps its index. The disk is recognized when it
+  comes back, also under another drive letter, and nothing is indexed again. Clean Up Index removes entries of photos
+  that are really gone.
+- **Look in** has four choices now: this folder, this folder and subfolders, Library, whole computer (photos with a
+  rating, label or tag). Smart search and People work in the Library.
+
+### Also new since 1.1.0
+
+- **Editor, crop**: the frame can be moved, resized by its corners (keeping the chosen proportions) and applied with a
+  double click inside it.
+- **Duplicates**: the photo window has zoom buttons and zooms with the mouse wheel.
+- **Map**: a button opens the place on openstreetmap.org in the web browser.
+- **Settings > Updates**: when Check for Updates finds a new version, an Update Now button appears there.
+- **Left panel**: scrolls as a whole when it does not fit a low screen; the folder chosen under Recent Folders or
+  Favorites stays marked.
+
+### Known limitations of this beta
+
+- A search for something no photo shows still lists the closest photos; there is no "nothing found" yet.
+- Indexing takes about a third of a second per photo on an older laptop; large libraries (tens of thousands of photos)
+  and real external disks have had little testing. Reports are welcome.
+- Faces are grouped automatically and sometimes one human is split into two persons: use Merge Into.
+- Videos are not covered by smart search.
+- HEVC (H.265) videos, such as .MOV files from recent phones and cameras, need "HEVC Video Extensions" from Microsoft Store.
+- WEBP and HEIC/HEIF photos need the Windows image extensions from Microsoft Store; they cannot be saved in those formats.
+- RAW camera formats are not supported yet.
+
+### License
+
+Personal, non-commercial use only, as for 1.1.0; see LICENSE.txt. The smart search components are made by other authors
+under the MIT and Apache-2.0 licenses; see THIRD-PARTY-NOTICES.txt.
+
+---
+
 ## ZebPic v1.1.0
 
 The second stable release. It contains everything from the two 1.0.1 beta versions. Version 1.0.0 offers it as an update;

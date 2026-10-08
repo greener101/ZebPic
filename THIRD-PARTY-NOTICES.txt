@@ -16,6 +16,7 @@ the list.
   XmpCore                            6.1.10.1     BSD-3-Clause   Adobe; port by Drew Noakes and
                                                                  contributors
   VirtualizingWrapPanel              2.5.4        MIT            2019 S. Baeumlisberger
+  Microsoft.ML.OnnxRuntime           1.22.0       MIT            Microsoft Corporation
   Windows SDK projections (CsWinRT)  10.0.19041   MIT            Microsoft Corporation
 
 Project pages
@@ -28,7 +29,24 @@ Project pages
   MetadataExtractor      https://github.com/drewnoakes/metadata-extractor-dotnet
   XmpCore                https://github.com/drewnoakes/xmp-core-dotnet
   VirtualizingWrapPanel  https://github.com/sbaeumlisberger/VirtualizingWrapPanel
+  ONNX Runtime           https://github.com/microsoft/onnxruntime
   CsWinRT                https://github.com/microsoft/CsWinRT
+
+Smart search (optional, off by default). When it is turned on in Settings,
+ZebPic downloads these model files from huggingface.co and github.com; they are not part of
+the installer:
+
+  CLIP ViT-B/32 image model          MIT            OpenAI; ONNX conversion by Xenova
+    https://huggingface.co/Xenova/clip-vit-base-patch32
+  clip-ViT-B-32-multilingual-v1      Apache-2.0     sentence-transformers (Nils Reimers
+    https://huggingface.co/sentence-transformers/clip-ViT-B-32-multilingual-v1     and Iryna Gurevych, UKP Lab)
+
+  YuNet face detector                MIT            OpenCV Zoo; Shiqi Yu and contributors
+    https://github.com/opencv/opencv_zoo/tree/main/models/face_detection_yunet
+  SFace face recognition model       Apache-2.0     OpenCV Zoo; Yaoyao Zhong and contributors
+    https://github.com/opencv/opencv_zoo/tree/main/models/face_recognition_sface
+
+The models are run with ONNX Runtime (MIT), https://github.com/microsoft/onnxruntime
 
 Maps ("show on map" and the optional map in the Metadata window) are drawn
 from map tiles of openstreetmap.org, loaded when a map is shown.
