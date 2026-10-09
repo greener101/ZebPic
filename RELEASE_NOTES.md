@@ -1,3 +1,57 @@
+## ZebPic v2.0.0b2 (beta)
+
+Second test version of ZebPic 2.0, published as a **pre-release**. Install it over 1.1.0 or over beta 1 with the
+installer; ratings, tags, albums, settings and the smart search index are kept.
+
+### Download
+
+- **ZebPic-Setup.exe** - installer (recommended).
+- **ZebPic-Portable.zip** - portable version; unzip and run `ZebPic.exe`.
+
+Windows 10 or 11, 64-bit.
+
+The installer is not digitally signed yet. If Windows SmartScreen shows a warning, choose **More info**, then **Run anyway**.
+
+### Fixed
+
+- **Indexing stopped with "The type initializer for 'Microsoft.ML.OnnxRuntime.NativeMethods' threw an exception".**
+  Smart search needs the Microsoft Visual C++ Redistributable (x64), which some computers do not have. The installer now
+  checks for it and, when it is missing or too old, downloads it from Microsoft and installs it. With the portable
+  version, Settings > Smart Search says what is missing and offers the download from Microsoft.
+- The Smart Search page in Settings scrolls when a long message does not leave room for everything.
+- **"This folder and subfolders" showed nothing for a large folder** (a user profile, a whole drive): the list was started
+  over every few seconds and never arrived. It now shows how many photos were found so far and can be stopped; folders
+  of Windows and of programs are left out, and a folder that cannot be read no longer empties the list.
+- The Up button works while a folder is shown with its subfolders.
+
+### New in beta 2
+
+- **Look in** is chosen with five icons: next to the search box in Browse, and in each panel of Sort - this folder,
+  this folder and subfolders, Library, whole computer (the photos on all disks), Marked (photos with a rating, a color
+  label or a tag).
+- **Chronos**: a button at the top of the left panel in Browse replaces the sections with a column of dates for the
+  photos shown (whatever Look in, the search and the filters give), newest first. Turn the mouse wheel over a year or a
+  month to give it more room - months and days get names - or less, where dates shrink to lines; longer lines mean more
+  photos. Click a year, a month or a day to see only its photos (a mark along the edge shows the choice; "show all"
+  above the photos lets it go). Under the button: a line with two handles for the first and last year to show, a line
+  with one handle that leaves small files out, and where the photos come from. The dates read from the photos are
+  remembered, so Chronos opens quickly the next time.
+- **Quick Folders** in Browse: a button next to New Folder lists the parent folder, favorites, recent folders and
+  subfolders.
+- **Smart search off**: the sparkles button next to the search box is gone. The Library works as a list of folders, and a
+  line above its photos offers to turn smart search on.
+- **Left panel**: every section - Favorites, Recent Folders, Albums, People, Folders, Filters - folds by its heading
+  and can be dragged by its handle to another place; the order is remembered. Settings > Appearance sets how many rows
+  each section shows.
+
+Everything else is as in beta 1.
+
+### Known limitations
+
+As in beta 1, see below.
+
+---
+
 ## ZebPic v2.0.0b1 (beta)
 
 First test version of ZebPic 2.0. It is published as a **pre-release**: version 1.1.0 does not offer it as an automatic

@@ -2,6 +2,8 @@
 
 Photo and video viewer, organizer, sorter, duplicate finder and photo editor for Windows.
 
+![ZebPic: the Library with People, folders and filters](docs/screenshot-library.jpg)
+
 **[Download the latest version](https://github.com/greener101/ZebPic/releases/latest)**
 
 | File | What it is |
@@ -14,8 +16,10 @@ Photo and video viewer, organizer, sorter, duplicate finder and photo editor for
 Test versions of the next release are published as pre-releases on the [Releases page](https://github.com/greener101/ZebPic/releases).
 They are not offered as automatic updates. The links above always point to the latest stable version.
 
-Current beta: **v2.0.0b1** with Smart Search - find photos by a description in English or Russian and by the people
+Current beta: **v2.0.0b2** with Smart Search - find photos by a description in English or Russian and by the people
 on them. It is optional and runs entirely on your computer.
+
+![ZebPic 2.0 beta: Chronos, the photos by date](docs/screenshot-chronos.jpg)
 
 ## Features
 
