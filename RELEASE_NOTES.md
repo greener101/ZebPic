@@ -1,3 +1,47 @@
+## ZebPic v2.0.0b3 (beta)
+
+Third test version of ZebPic 2.0 (build 104), published as a **pre-release**. Install it over 1.1.0 or over an earlier
+beta with the installer; ratings, tags, albums, settings and the smart search index are kept.
+
+### Download
+
+- **ZebPic-Setup.exe** - installer (recommended).
+- **ZebPic-Portable.zip** - portable version; unzip and run `ZebPic.exe`.
+
+Windows 10 or 11, 64-bit.
+
+The installer is not digitally signed yet. If Windows SmartScreen shows a warning, choose **More info**, then **Run anyway**.
+
+### New in beta 3
+
+- **Quick reopening.** The photos found in a folder with its subfolders, or on the whole computer, are remembered:
+  opened again, the list is there at once, and only the folders that changed are looked through. F5 looks through
+  everything again. A search can be stopped and resumed where it was.
+- **Chronos shows the photos at once**, by the date of their files, and reads the dates taken in the background; photos
+  whose date taken differs move to their place. The dates are remembered, so Chronos opens quickly the next time.
+  While Chronos is on, the filters of the left panel do not apply.
+- **Settings > Storage**: how much room thumbnails, the list of photos and dates, face counts and map pieces take, a
+  button to clear each, and the size limit for thumbnails (up to 8 GB).
+- **Problem reports.** An error now has a short code (for example ZP-3F2A). The error window and Settings > About >
+  Report a Problem save a report file on the Desktop, or copy it, to pass on to the developer. ZebPic sends nothing by itself.
+- **Check for Updates** in Settings also offers beta versions; the check at start-up offers final versions only.
+- **Build number** in Settings > About and in reports ("v2.0.0b3 - build 104").
+- **Sort**: under each panel, the path of the selected photo.
+
+### Fixed
+
+- Thumbnails of photos marked with a high resolution (for example 300 dpi) were shown much smaller than the others.
+- In a large folder shown with its subfolders, deleted photos stayed on screen until the folders had been checked.
+- The line of years in Chronos was missing while the photos were still being looked for.
+- The count of dates read in Chronos started again from zero after the search was stopped (the dates themselves were kept).
+- In a folder shown with its subfolders, a photo saved in the editor kept its old thumbnail.
+
+### Known limitations
+
+- As in the earlier betas, see below.
+
+---
+
 ## ZebPic v2.0.0b2 (beta)
 
 Second test version of ZebPic 2.0, published as a **pre-release**. Install it over 1.1.0 or over beta 1 with the
