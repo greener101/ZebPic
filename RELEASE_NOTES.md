@@ -1,3 +1,70 @@
+## ZebPic v2.0.0
+
+The third stable release (build 105). It contains everything from the three 2.0 beta versions. Version 1.1.0 and the
+beta versions offer it as an update; ratings, tags, albums and settings are kept.
+
+### Download
+
+- **ZebPic-Setup.exe** - installer (recommended).
+- **ZebPic-Portable.zip** - portable version; unzip and run `ZebPic.exe`.
+- **SHA256SUMS.txt** - checksums of the two files.
+
+Windows 10 or 11, 64-bit. The installer adds the Microsoft Visual C++ Redistributable when it is missing (smart search needs it).
+
+The installer is not digitally signed yet. If Windows SmartScreen shows a warning, choose **More info**, then **Run anyway**.
+
+### New since 1.1.0
+
+**Smart search** - optional, turned on in Settings > Smart Search. Its components (about 254 MB) are downloaded once; all
+analysis runs on your computer and photos are not sent anywhere.
+- Find photos by a description in English or Russian: "sunset over the sea", "dog on a sofa", "people on stage".
+- **Library**: the folders smart search covers - added in Settings or with a right-click on a folder. System and program
+  folders are skipped, so a whole drive can be added. Indexing starts with a button, can be paused, shows the time left
+  and picks up new photos by itself; it can be limited to the time the computer is not in use.
+- **People**: faces are grouped into persons, shown as a list or as round portraits. Name a person and type the name into
+  the search box. Merge, move to another person, "not this person", "not a person", ignore and bring back.
+- **External disks**: a disconnected disk keeps its index and is recognized when it returns, also under another letter.
+
+**Chronos** - a button at the top of the left panel of Browse: the photos by date in one column, years large and dates
+small. The mouse wheel gives a year or a month more room; a click on a year, a month or a day shows only its photos.
+A line with two handles limits the years, another leaves small files out. Photos appear at once by the date of their
+file; the dates taken are read in the background and remembered.
+
+**Look in** - five icons next to the search box and in each Sort panel: this folder, this folder and subfolders,
+Library, whole computer (all disks), marked photos (rating, label or tag). A large folder or the whole computer is
+remembered: opened again, the list is there at once and only changed folders are looked through; F5 looks through
+everything. A search can be stopped and resumed.
+
+**Also new**
+- Left panel: every section folds and can be moved by its handle; Settings > Appearance sets how many rows each shows.
+- Quick Folders button in Browse; in Sort, the path of the selected photo under each panel.
+- Editor, crop: move the frame, resize it by its corners (keeping the proportions), double-click inside to apply.
+- Duplicates: zoom buttons and the mouse wheel in the photo window.
+- Map: open the place on openstreetmap.org in the web browser.
+- Settings > Storage: how much room thumbnails, the list of photos and dates, face counts and map pieces take, and
+  clearing each; thumbnail limit up to 8 GB.
+- Settings > Updates: Update Now right where an update was found; Check for Updates also finds beta versions.
+- Problem reports: an error has a short code (for example ZP-3F2A); a report file can be saved on the Desktop or copied,
+  to pass on to the developer. ZebPic sends nothing by itself.
+- The build number is shown in Settings > About.
+
+### Fixed since 1.1.0
+
+- Thumbnails of photos marked with a high resolution (for example 300 dpi) were shown much smaller than the others.
+- "This folder and subfolders" showed nothing for a very large folder.
+- A photo saved in the editor kept its old thumbnail in a folder shown with its subfolders.
+- The folder tree did not fill the room left in the left panel.
+
+### Known limitations
+
+- A search for something no photo shows still lists the closest photos.
+- Videos are not covered by smart search.
+- "Whole computer" looks through every disk the first time; on a large disk this takes minutes.
+- HEVC (H.265) videos need "HEVC Video Extensions" from Microsoft Store; WEBP and HEIC/HEIF photos need the Windows
+  image extensions. RAW camera formats are not supported yet.
+
+---
+
 ## ZebPic v2.0.0b3 (beta)
 
 Third test version of ZebPic 2.0 (build 104), published as a **pre-release**. Install it over 1.1.0 or over an earlier
