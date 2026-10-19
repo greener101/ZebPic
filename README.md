@@ -100,3 +100,5 @@ For an error, Settings > About > Report a Problem saves a report file you can at
 ---
 
 Developed by Home Soft Lab.
+
+Pictures in the screenshots: ZebPicDemo - AI-generated demo image assets, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); shown reduced in the program window. Details: [docs/DEMO-IMAGES.md](docs/DEMO-IMAGES.md).
